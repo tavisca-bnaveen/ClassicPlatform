@@ -1,0 +1,54 @@
+.flex{
+    display: flex;
+}
+.cnx-box-right{
+    position: relative;
+    padding: 5px;
+    
+    border-right: 2px solid black;
+}
+.border{
+    border: 2px solid black;
+    width: 324px;
+}
+.cnx-box{
+    position: relative;
+    padding: 5px;
+}
+.vertical-line{
+    border: 1px solid black;
+    width: 0px;
+    height: 40px;
+    
+    position: relative;
+}
+.fraud-margin{
+    margin-left: 23px;
+}
+.fraud-margin-name{
+    margin-left:5px
+}
+.payments-margin{
+    margin-left: 85px;
+}
+.payments-margin-name{
+    margin-left:50px;
+}
+.ouc-margin{
+    margin-left: 58px;
+}
+.ouc-margin-name{
+    margin-left: 20px;
+}
+.communcation-margin{
+    margin-left:75px;
+}
+.communcation-margin-name{
+    margin-left:40px;
+}
+.visibility-none{
+    visibility: hidden;
+}
+.move-left{
+    margin-right: 10px;
+}
