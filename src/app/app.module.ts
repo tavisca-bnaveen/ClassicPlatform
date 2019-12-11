@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ClientHiearchyComponent } from './client-hiearchy/client-hiearchy.component';
 import { BankClientComponent } from './bank-client/bank-client.component';
 import { CnxComponent } from './cnx/cnx.component';
+import { PortalComponent } from './portal/portal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ClientHiearchyComponent,
     BankClientComponent,
-    CnxComponent
+    CnxComponent,
+    PortalComponent
   ],
   imports: [
     BrowserModule,
