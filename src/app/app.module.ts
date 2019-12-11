@@ -7,6 +7,7 @@ import { ClientHiearchyComponent } from './client-hiearchy/client-hiearchy.compo
 import { BankClientComponent } from './bank-client/bank-client.component';
 import { CnxComponent } from './cnx/cnx.component';
 import { PortalComponent } from './portal/portal.component';
+import { MauiComponent } from './maui/maui.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PortalComponent } from './portal/portal.component';
     ClientHiearchyComponent,
     BankClientComponent,
     CnxComponent,
-    PortalComponent
+    PortalComponent,
+    MauiComponent
   ],
   imports: [
     BrowserModule,
