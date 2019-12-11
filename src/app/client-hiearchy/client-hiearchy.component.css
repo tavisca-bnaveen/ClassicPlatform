@@ -1,0 +1,23 @@
+.flex{
+    display: flex;
+    font-size: 20px;
+}
+.arrow{
+    font-size: 50px;
+}
+.paddding-top{
+    padding-top: 20px;
+}
+.down-arrow{
+    font-size: 40px;
+    transform: rotate(45deg);
+}
+.cross-arrow{
+    font-size: 40px;
+}
+.vertical-line{
+    border: 1px solid black;
+    width: 0px;
+    height: 40px;
+    margin-right: 30px;
+}
