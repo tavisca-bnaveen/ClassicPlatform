@@ -13,6 +13,8 @@ export class AppComponent implements OnInit{
   ngOnInit(): void {
     this.connectDivs("js-trips","js-supps","#000000", 0.1,"js-trips-to-supps");
     this.connectDivs("js-engines","js-supps","#000000", 0.1,"js-engines-to-supps");
+    this.connectDivs("js-cms","js-engines","#000000", 0.1,"js-cms-to-engines");
+    this.connectDivs("js-cms","js-trips","#000000", 0.1,"js-cms-to-trips");
   }
   connectDivs(leftId, rightId, color, tension,svgId) {
     var left = document.getElementById(leftId);
