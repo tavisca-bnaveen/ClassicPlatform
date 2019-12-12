@@ -1,47 +1,46 @@
-
 .tooltip {
-    
-    position: relative;
-    
-  }
-  .arrow{
-    font-size: 50px;
-    margin-left: 13px;
+  position: relative;
 }
-.box-model{
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 1%;
-    align-items: center;
-    width: 4%;
-    font-size: 21px;
-    -webkit-box-shadow: -1px -4px 14px 0px rgba(0,0,0,0.59);
-    -moz-box-shadow: -1px -4px 14px 0px rgba(0,0,0,0.59);
-    box-shadow: -1px -4px 14px 0px rgba(0,0,0,0.59);
+.arrow {
+  font-size: 50px;
+  margin-left: 13px;
 }
-  .tooltip .tooltiptext {
-    visibility: hidden;
-    background-color: black;
-    width: 120px;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-  
-    
-    position: absolute;
-    z-index: 1;
-  }
-  
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
-  }
-  .border{
-      border: 1px solid black;
-      width: 64px;
-  }
-  .stroke-border{
-      position: relative;
-      margin-left: 6px;
-      border-right:1px solid black ;
-  }
+.box-model {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  align-items: center;
+  width: 12%;
+  font-size: 21px;
+  -webkit-box-shadow: -1px -4px 14px 0px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: -1px -4px 14px 0px rgba(0, 0, 0, 0.59);
+  box-shadow: -1px -4px 14px 0px rgba(0, 0, 0, 0.59);
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: black;
+  width: 120px;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.border {
+  border: 1px solid black;
+  width: 64px;
+}
+.stroke-border {
+  position: relative;
+  margin-left: 6px;
+  border-right: 1px solid black;
+}
+.cms-api{
+  margin-left:25px;
+}

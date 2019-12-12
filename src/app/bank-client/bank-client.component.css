@@ -1,5 +1,5 @@
 .user-database{
-    margin-left: 15%;
+    margin-left: 43%;
     
 }
 .arrow{
@@ -9,7 +9,7 @@
     padding-top: 1%;
     padding-bottom: 1%;
     align-items: center;
-    width: 10%;
+    width: 25%;
     font-size: 21px;
     -webkit-box-shadow: -5px 7px 19px 3px rgba(0,0,0,0.75);
     -moz-box-shadow: -5px 7px 19px 3px rgba(0,0,0,0.75);
@@ -47,7 +47,7 @@ img.hello{
     width: 100px;
 }
 .arrow-double{
-    margin-left: 13%;
+    margin-left: 40%;
 }
 .arrow-double-side{
     position: relative;
