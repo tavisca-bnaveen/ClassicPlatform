@@ -61,14 +61,34 @@
     align-items: center;
 }
 .sorc-left{
-    margin-left: 200px;
+    /* margin-left: 200px; */
 }
 .sorc-left-align{
-    margin-left: 153px;
+    margin: 0 auto;
 }
 .sorc-down{
     
     font-size: 33px;
-    margin-left: 184px;
+    /* margin-left: 184px; */
 
+}
+.flex-box{
+    display: flex;
+}
+.flex-item{
+    flex: 1;
+}
+.tilted-arrow{
+    font-size: 66px;
+    transform: rotate(335deg);
+    margin-left: 20px;
+    margin-top: -25px;
+
+}
+.flex-items{
+    flex: 6;
+}
+.margin-position{
+    margin-left: -72px;
+    text-align: center;
 }

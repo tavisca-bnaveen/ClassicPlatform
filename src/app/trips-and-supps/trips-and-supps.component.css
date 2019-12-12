@@ -56,3 +56,21 @@
 .engine-size{
     font-size: 80px;
 }
+.tripdb-size{
+    font-size: 50px; 
+}
+.synchron{
+    font-size: 25px; 
+}
+.flex{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.vertical-line{
+    border: 1px solid black;
+    height: 48px;
+    width: 0px;
+    margin-left: 63px;
+
+}
