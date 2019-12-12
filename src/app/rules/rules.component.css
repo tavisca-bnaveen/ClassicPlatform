@@ -1,4 +1,6 @@
-
+.img-style{
+    margin-left: 5px;
+}
 .tooltip {
     
     position: relative;
@@ -43,4 +45,7 @@
 }
 .arrow-margin-left{
     margin-left: 15px;
+}
+.rules-margin{
+margin-left: 40px;
 }
