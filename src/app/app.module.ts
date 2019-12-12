@@ -9,6 +9,7 @@ import { BankClientComponent } from './bank-client/bank-client.component';
 import { CnxComponent } from './cnx/cnx.component';
 import { PortalComponent } from './portal/portal.component';
 import { MauiComponent } from './maui/maui.component';
+import { RulesComponent } from './rules/rules.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MauiComponent } from './maui/maui.component';
     BankClientComponent,
     CnxComponent,
     PortalComponent,
-    MauiComponent
+    MauiComponent,
+    RulesComponent
   ],
   imports: [
     BrowserModule,

@@ -53,3 +53,6 @@
 .tool-tip:hover .tool-text {
     visibility: visible;
 }
+.engine-size{
+    font-size: 80px;
+}
