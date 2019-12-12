@@ -1,5 +1,5 @@
 .user-database{
-    margin-left: 43%;
+    margin-left: 37%;
     
 }
 .arrow{
@@ -7,9 +7,10 @@
 }
 .box-model{
     padding-top: 1%;
-    padding-bottom: 1%;
+    padding-right: 8px;
     align-items: center;
-    width: 25%;
+    width: 20%;
+    text-align: center;
     font-size: 21px;
     -webkit-box-shadow: -5px 7px 19px 3px rgba(0,0,0,0.75);
     -moz-box-shadow: -5px 7px 19px 3px rgba(0,0,0,0.75);
@@ -24,7 +25,7 @@
     
   }
   .bank-font-size{
-      font-size: 82px;
+      font-size: 70px;
   }
   .tooltip .tooltiptext {
     visibility: hidden;
@@ -47,7 +48,7 @@ img.hello{
     width: 100px;
 }
 .arrow-double{
-    margin-left: 40%;
+    margin-left: 34%;
 }
 .arrow-double-side{
     position: relative;
@@ -55,4 +56,8 @@ img.hello{
 }
 .hiearchy-font{
     font-size: 70px;
+}
+.arrow-orxe{
+    margin-left: 75px;
+    font-size: 76px;
 }
