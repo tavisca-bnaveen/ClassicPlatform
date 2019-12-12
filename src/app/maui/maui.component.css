@@ -8,7 +8,7 @@
       font-size: 82px;
   }
   .tooltip .tooltiptext {
-    visibility: hidden;
+    display: none;
     background-color: black;
     width: 100px;
     color: #fff;
@@ -22,7 +22,7 @@
   }
   
   .tooltip:hover .tooltiptext {
-    visibility: visible;
+    display: block;
   }
   .flex{
       display: flex;

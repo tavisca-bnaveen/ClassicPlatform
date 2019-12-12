@@ -76,21 +76,22 @@ export class AppComponent implements OnInit{
     svg.appendChild(shape);
   }
   createSVG() {
-    // let svg = document.getElementById("svg-canvas");
-    // if (null == svg) {
-      let svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-      svg.setAttribute("id", "svg-canvas");
-      svg.setAttribute("style", "position:absolute;top:0px;left:0px");
-      // svg.setAttribute("width", document.body.clientWidth.toString());
-      // svg.setAttribute("height", document.body.clientHeight.toString());
-      svg.setAttributeNS(
+    let svg = document.getElementById("svg-canvas");
+    if (svg == null) {
+      let MySvg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+      MySvg.setAttribute("id", "svg-canvas");
+      MySvg.setAttribute("style", "position:absolute;top:0px;left:0px;pointer-events: none;");
+      MySvg.setAttribute("width", document.body.clientWidth.toString());
+      MySvg.setAttribute("height", document.body.clientHeight.toString());
+      MySvg.setAttributeNS(
         "http://www.w3.org/2000/xmlns/",
         "xmlns:xlink",
         "http://www.w3.org/1999/xlink"
       );
-      // document.body.appendChild(svg);
-      this.elementApp.nativeElement.appendChild(svg);
-    // }
+      document.body.appendChild(MySvg);
+      this.elementApp.nativeElement.appendChild(MySvg);
+      return MySvg;
+    }
     return svg;
   }
 }
