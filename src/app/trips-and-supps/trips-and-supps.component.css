@@ -56,6 +56,7 @@
 .engine-size{
     font-size: 80px;
 }
+
 .tripdb-size{
     font-size: 50px; 
 }
@@ -74,3 +75,23 @@
     margin-left: 63px;
 
 }
+
+.items{
+    display: flex;
+    font-size: 14px;
+    position: relative;
+    right: 80px;
+    top: 15px;
+}
+.text-items{
+    text-transform: uppercase;
+    padding: 10px;
+}
+.gear-text{
+    font-size: 14px;
+}
+.engines .tool-text.position{
+    margin-top: 75px;
+    margin-left: -80px;
+}
+
