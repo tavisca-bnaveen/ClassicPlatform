@@ -8,7 +8,7 @@
       font-size: 82px;
   }
   .tooltip .tooltiptext {
-    visibility: hidden;
+    display: none;
     background-color: black;
     width: 100px;
     color: #fff;
@@ -22,7 +22,7 @@
   }
   
   .tooltip:hover .tooltiptext {
-    visibility: visible;
+    display: block;
   }
   .flex{
       display: flex;
@@ -31,11 +31,11 @@
     font-size: 70px;
 }
 .box-model{
-    padding-top: 1%;
+    padding-top: 2%;
     padding-bottom: 1%;
     align-items: center;
-    
-    width: 100px;
+    text-align: center;
+    width: 80px;
     font-size: 21px;
     -webkit-box-shadow: -5px 7px 19px 3px rgba(0,0,0,0.75);
     -moz-box-shadow: -5px 7px 19px 3px rgba(0,0,0,0.75);

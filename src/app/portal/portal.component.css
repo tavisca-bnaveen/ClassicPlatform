@@ -10,7 +10,8 @@
   padding-bottom: 1%;
   padding-left: 1%;
   align-items: center;
-  width: 12%;
+  text-align: center;
+  width: 15%;
   font-size: 21px;
   -webkit-box-shadow: -1px -4px 14px 0px rgba(0, 0, 0, 0.59);
   -moz-box-shadow: -1px -4px 14px 0px rgba(0, 0, 0, 0.59);
