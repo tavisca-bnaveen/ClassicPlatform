@@ -45,3 +45,7 @@
 .cms-api{
   margin-left:25px;
 }
+div.empty{
+  width:65px;
+  height: 60px;
+}
