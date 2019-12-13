@@ -18,6 +18,7 @@
     padding: 10px;
     margin: 20px;
     width: fit-content;
+    margin-bottom: 0px;
 }
 .suppliers{
     width: fit-content;
@@ -102,6 +103,11 @@
     width: 65px;
 }
 .clarifi-box{
-    margin-left: 37px;
+    margin-left: 0px;
 }
+.arrow{
+    font-size: 85px;
+    margin-left: 60px;
+}
+
 
