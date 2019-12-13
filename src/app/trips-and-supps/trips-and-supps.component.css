@@ -18,6 +18,7 @@
     padding: 10px;
     margin: 20px;
     width: fit-content;
+    margin-bottom: 0px;
 }
 .suppliers{
     width: fit-content;
@@ -92,6 +93,10 @@
 .engines .tool-text.position{
     margin-top: 75px;
     margin-left: -80px;
+}
+.arrow{
+    font-size: 90px;
+    margin-left: 136px;
 }
 
 
