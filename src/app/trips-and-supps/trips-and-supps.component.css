@@ -93,5 +93,15 @@
     margin-top: 75px;
     margin-left: -80px;
 }
-
+.clarifi-arrow{
+    font-size: 70px;
+    margin-left:10px ;
+}
+.clarifi-image img{
+    height: 65px;
+    width: 65px;
+}
+.clarifi-box{
+    margin-left: 37px;
+}
 
